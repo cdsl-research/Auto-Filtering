@@ -6,7 +6,9 @@
 Ubuntu 22.04.4 LTS
 Python Python 3.10.12
 
-以下のソフトウェアがあることが前提です．
+
+### ソフトウェア
+
 - Kubernetes
 - NFSサーバ
 - NFSクライアント
