@@ -4,7 +4,8 @@
 
 ### 環境
 Ubuntu 22.04.4 LTS
-Python Python 3.10.12
+
+Python 3.10.12
 
 
 ### ソフトウェア
