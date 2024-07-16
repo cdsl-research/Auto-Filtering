@@ -4,9 +4,9 @@
 監視ソフトウェアはPrometheusを想定しています．
 
 ### 環境
-Ubuntu 22.04.4 LTS
+- Ubuntu 22.04.4 LTS
 
-Python 3.10.12
+- Python 3.10.12
 
 必要なライブラリ
 Flask
@@ -15,6 +15,16 @@ subprocess
 yaml
 prometheus_api_client
 datetime
+
+
+
+### 対象ソフトウェア
+
+Prometheus
+
+NFSサーバ
+
+NFSクライアント
 
 
 ### 構成要素
@@ -50,7 +60,6 @@ python3 Auto_filtering.py
 
 ### 出力結果
 
-
-
+実際にこんなアラートが出ます．
 
 
