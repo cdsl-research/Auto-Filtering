@@ -19,7 +19,7 @@ datetime
 
 ### 構成要素
 
-- monitoring_item_check.py
+- ```monitoring_item_check.py```
   - get_prometheus_rules(): Prometheusの監視の監視のアラートのルールの内容を読み取り，取得する．
   - extract_expr_from_rules(): Prometheusに対してルールの問い合わせ
   - get_prometheus_query_result(): Prometheusに対する結果を表示
