@@ -62,4 +62,6 @@ python3 Auto_filtering.py
 
 実際にこんなアラートが出ます．
 
+<img width="309" alt="スクリーンショット 2024-07-16 12 13 47" src="https://github.com/user-attachments/assets/c32c9bae-0faa-4506-af3c-0795c73c4187">
+
 
