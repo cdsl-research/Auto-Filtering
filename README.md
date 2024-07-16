@@ -23,11 +23,16 @@ datetime
   - get_prometheus_rules(): Prometheusの監視の監視のアラートのルールの内容を読み取り，取得する．
   - extract_expr_from_rules(): Prometheusに対してルールの問い合わせ
   - get_prometheus_query_result(): Prometheusに対する結果を表示
-  - weight(): 重さを算出
+  - weight(): NFSサーバとディレクトリの共有関係共有関係を取得する
 
-
-
-
+- ```monitoring_weight.py```
+  - monitoring_weight(): NFSサーバとクライアントを特定
+  - weight_calculation(): NFSサーバとディレクトリのディレクトリの共有関係から重さの計算
+ 
+- ```Auto_filterring.py```
+  - notification(): アラートの通知内容を作成する関数
+  - format_alert_message(): アラートメッセージをフォーマットする関数
+  - alert(): アラートを通知する関数
 
 
 ### 使い方
@@ -40,6 +45,12 @@ Step2
 ```
 python3 Auto_filtering.py 
 ```
+
+
+
+### 出力結果
+
+
 
 
 
